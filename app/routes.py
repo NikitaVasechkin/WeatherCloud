@@ -16,6 +16,7 @@ def index():
         DbPush()
         flask.flash('Pushed to database current state')
     else: 
+        print('test')
         flask.flash('Nothing happens there')
     return flask.redirect(flask.url_for('index'))
 

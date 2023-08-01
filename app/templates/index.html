@@ -2,11 +2,22 @@
 
 {% block content %}
 <h1>Flask + Celery Examples</h1>
+<h1>Current temp: {{temperature}}</h1>
 <h2>Pushing to database current condition</h2>
 <form method="POST">
   <p>Push to db: <input type="text" name="database"></p>
   <input type="submit" name="submit" value="Send">
   <input type="submit" name="submit" value="Do nothing">
 </form>
+
+{% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <ul>
+                {% for message in messages %}
+                    <li>{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+{% endwith %}
 
 {% endblock %}

@@ -3,10 +3,11 @@ from app.models import WeatherData
 from datetime import datetime
 import random
 from celery import Celery
+from parser import request_current_data
 
 celery = Celery(app.name, broker=app.config['CELERY_BROKER_URL'])
 
-windDirections = ['E','SE','S','SW','W','NW','N','NE']
+windDirections = ['E', 'SE', 'S', 'SW', 'W', 'NW', 'N', 'NE']
 weatherStates = ['Clear', 'Cloudy', 'Fog', 'Rain', 'Snow', 'Storm', 'Thunder', 'Smog']
 
 @celery.task

@@ -1,0 +1,21 @@
+{
+    "url": "https://app.weathercloud.net/device/stats?code=4495795558&WEATHERCLOUD_CSRF_TOKEN=VFhkMEF2blZPS1RkN0tnUVZ4WVBzUHdiRmIxMV9uQXNMmdpekSgcjfSn0UC_zDxxZ5I7x7ZPN8w-z7MqPvbl7g%3D%3D",
+    "headers": {
+        "authority": "app.weathercloud.net",
+        "method": "GET",
+        "path": "/device/stats?code=4495795558&WEATHERCLOUD_CSRF_TOKEN=VFhkMEF2blZPS1RkN0tnUVZ4WVBzUHdiRmIxMV9uQXNMmdpekSgcjfSn0UC_zDxxZ5I7x7ZPN8w-z7MqPvbl7g%3D%3D",
+        "scheme": "https",
+        "Accept": "application/json, text/javascript, */*; q=0.01",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Cookie": "_ga=GA1.2.1785875231.1691919085; ...",
+        "Referer": "https://app.weathercloud.net/",
+        "Sec-Ch-Ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+        "Sec-Ch-Ua-Mobile": "?0",
+        "Sec-Ch-Ua-Platform": "\"Windows\"",
+        "Sec-Fetch-Dest": "empty",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Site": "same-origin",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "X-Requested-With": "XMLHttpRequest"
+}}
